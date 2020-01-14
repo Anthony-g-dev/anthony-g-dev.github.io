@@ -202,6 +202,33 @@ footer {
 	padding: 3em 0em;
 }
 
+/* COLORS & BACKGROUNDS COLORS */
+/* Colors */
+.color-primary {
+	color: var(--primary);
+}
+.color-secondary {
+	color: var(--secondary)
+}
+.color-tertiary {
+	color: var(--tertiary)
+}
+/* Background Color */
+.bg-primary {
+	background-color: var(--primary);
+}
+.bg-secondary {
+	background-color: var(--secondary)
+}
+.bg-tertiary {
+	background-color: var(--tertiary)
+}
+
+/* BORDERS */
+.border-r1 {
+	border-radius: 1em;
+}
+
 /* TEXT ALIGN */
 .align-l {
 	text-align: left;
