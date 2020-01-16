@@ -76,7 +76,17 @@ hr {
 	min-width: 12em;
 }
 
+.formation_date i, .experience_date i {
+	font-size: 0.8em;
+	vertical-align: middle;
+}
+
+i.fa-circle {
+	font-size: 0.2em;
+}
+
 .formation_date p, .experience_date p {
+	display: inline;
 	font-size: 0.8em;
 }
 
