@@ -72,11 +72,11 @@ hr {
 	background-color: var(--primary);
 }
 
-.formation_date {
+.formation_date, .experience_date {
 	min-width: 12em;
 }
 
-.formation_date p {
+.formation_date p, .experience_date p {
 	font-size: 0.8em;
 }
 
