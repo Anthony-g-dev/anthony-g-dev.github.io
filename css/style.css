@@ -1,0 +1,78 @@
+:root{
+	--primary: #ff9000;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-weight: 200;
+}
+
+hr {
+	height: 0.2em;
+	border-style: none;
+}
+
+.color-primary {
+	color: var(--primary);
+}
+
+.bg-primary {
+	background-color: var(--primary);
+}
+
+#banner {
+	background-color: var(--primary);
+}
+
+#contact, #about, #hobbies {
+	display: inline-block;
+}
+
+.group_title {
+	padding: 5px;
+	color: var(--primary);
+	background-color: #404040;
+}
+
+#photo img, #photo a {
+	display: block;
+	margin: 0 auto;
+	height: 15em;
+	border-radius: 7.5em;
+}
+
+#hobbies i {
+	font-size: 4em;
+}
+
+#job {
+	font-size: 1.5em;
+}
+
+#job::after {
+	margin-top: 0.1em;
+	display: block;
+	content: "";
+	width: 3em;
+	height: 0.1em;
+	background-color: var(--primary);
+}
+
+/* ##### MEDIA QUERIES ##### */
+/* Tablets (sm) */
+@media screen and (min-width: 768px) {
+	
+}
+
+/* Laptops (md) */
+@media screen and (min-width: 992px) {
+	
+}
+
+/* Desktops (lg) */
+@media screen and (min-width: 1200px) {
+	
+}

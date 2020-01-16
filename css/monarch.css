@@ -1,17 +1,18 @@
 /* ##### Generic ##### */
 
 :root {
-	--primary: #1abc9c;
-	--secondary: #000000;
-	--tertiary: #ffffff;
-	--links: #16a085;
+	--m_primary: #1abc9c;
+	--m_secondary: #000000;
+	--m_tertiary: #ffffff;
+	--m_texts: #4a4a4a;;
+	--m_links: #16a085;
 }
 
 .dark-theme {
-	--primary: #1abc9c;
-	--secondary: #555555;
-	--tertiary: #000000;
-	--links: #16a085;
+	--m_primary: #1abc9c;
+	--m_secondary: #555555;
+	--m_tertiary: #000000;
+	--m_links: #16a085;
 }
 
 * {
@@ -19,7 +20,7 @@
 	margin: 0px;
 	padding: 0px;
 	max-width: 100%;
-	color: var(--primary);
+	color: var(--m_texts);
 	font-family: monospace, sans-serif;
 }
 
@@ -31,7 +32,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100%;
-	background-color: var(--tertiary);
+	background-color: var(--m_tertiary);
 }
 
 i {
@@ -39,23 +40,23 @@ i {
 }
 
 a {
-	color: var(--links);
+	color: var(--m_links);
 	font-weight: 600;
 	text-decoration: none;
 }
 
 header {
-	background-color: var(--secondary);
+	background-color: var(--m_secondary);
 }
 
 footer {
 	width: 100%;
-	background-color: var(--secondary);
+	background-color: var(--m_secondary);
 }
 
 ::selection {
 	color: white;
-	background-color: var(--primary);
+	background-color: var(--m_primary);
 }
 
 /* ##### MARGIN ##### */
@@ -205,23 +206,23 @@ footer {
 /* COLORS & BACKGROUNDS COLORS */
 /* Colors */
 .color-primary {
-	color: var(--primary);
+	color: var(--m_primary);
 }
 .color-secondary {
-	color: var(--secondary)
+	color: var(--m_secondary)
 }
 .color-tertiary {
-	color: var(--tertiary)
+	color: var(--m_tertiary)
 }
 /* Background Color */
 .bg-primary {
-	background-color: var(--primary);
+	background-color: var(--m_primary);
 }
 .bg-secondary {
-	background-color: var(--secondary)
+	background-color: var(--m_secondary)
 }
 .bg-tertiary {
-	background-color: var(--tertiary)
+	background-color: var(--m_tertiary)
 }
 
 /* TEXT ALIGN */
@@ -257,6 +258,9 @@ footer {
 }
 .flex-wrap-r {
 	flex-wrap: wrap-reverse;
+}
+.flex-1 {
+	flex: 1;
 }
 
 /* JUSTIFY-CONTENT & ALIGN ITEMS */
