@@ -1,10 +1,19 @@
 :root{
 	--primary: #ff9000;
-	--m_primary: #ff9000;
+	--m_primary: var(--primary);
+}
+
+aside {
+	order: 1;
 }
 
 header {
+	order: 2;
 	background-color: #ffffff;
+}
+
+section#body {
+	order: 3;
 }
 
 h1 {
