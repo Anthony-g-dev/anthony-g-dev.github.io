@@ -225,7 +225,8 @@ footer {
 	background-color: var(--m_tertiary)
 }
 
-/* TEXT ALIGN */
+/* TEXT ALIGN & FLOAT */
+/* Text Align */
 .align-l {
 	text-align: left;
 }
@@ -234,6 +235,13 @@ footer {
 }
 .align-r {
 	text-align: right;
+}
+/* Float */
+.float-l {
+	float: left;
+}
+.float-r {
+	float: right;
 }
 
 /* FLEXBOX */

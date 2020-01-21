@@ -1,5 +1,6 @@
 :root{
 	--primary: #ff9000;
+	--m_primary: #ff9000;
 }
 
 header {
@@ -93,6 +94,10 @@ i.fa-circle {
 .formation_date p, .experience_date p {
 	display: inline;
 	font-size: 0.8em;
+}
+
+.info p, .info li {
+	color: #888888;
 }
 
 /* ##### MEDIA QUERIES ##### */
