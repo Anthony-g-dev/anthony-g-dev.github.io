@@ -40,12 +40,20 @@ hr {
 	border-style: none;
 }
 
+table tr td {
+	color: #000000;
+}
+
 .color-primary {
 	color: var(--primary);
 }
 
 .bg-primary {
 	background-color: var(--primary);
+}
+
+#cv_container {
+	order: 2;
 }
 
 #banner {
@@ -65,8 +73,9 @@ hr {
 #photo img, #photo a {
 	display: block;
 	margin: 0 auto;
-	height: 15em;
-	border-radius: 7.5em;
+	width: 14em;
+	height: 14em;
+	border-radius: 7em;
 }
 
 #hobbies i {
@@ -88,7 +97,7 @@ hr {
 
 .formation_date, .experience_date {
 	margin-bottom: 0.5em;
-	min-width: 12em;
+	min-width: 16em;
 }
 
 .formation_date i, .experience_date i {
@@ -112,7 +121,16 @@ i.fa-circle {
 /* ##### MEDIA QUERIES ##### */
 /* Tablets (sm) */
 @media screen and (min-width: 768px) {
-	
+	aside#banner {
+		width: 18em;
+	}
+	#skills_container {
+		justify-content: space-around;
+	}
+	.skill_item {
+		padding: 1em;
+		width: 50%;
+	}
 }
 
 /* Laptops (md) */
@@ -122,5 +140,7 @@ i.fa-circle {
 
 /* Desktops (lg) */
 @media screen and (min-width: 1200px) {
-	
+	.skill_item {
+		width: 25%;
+	}
 }
