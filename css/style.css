@@ -121,9 +121,6 @@ i.fa-circle {
 /* ##### MEDIA QUERIES ##### */
 /* Tablets (sm) */
 @media screen and (min-width: 768px) {
-	aside#banner {
-		width: 18em;
-	}
 	#skills_container {
 		justify-content: space-around;
 	}
@@ -135,7 +132,9 @@ i.fa-circle {
 
 /* Laptops (md) */
 @media screen and (min-width: 992px) {
-	
+	aside#banner {
+		width: 18em;
+	}
 }
 
 /* Desktops (lg) */
