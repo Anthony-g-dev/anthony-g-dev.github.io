@@ -1,8 +1,3 @@
-:root{
-	--primary: #ff9000;
-	--m_primary: var(--primary);
-}
-
 aside {
 	order: 1;
 }
@@ -45,11 +40,11 @@ table tr td {
 }
 
 .color-primary {
-	color: var(--primary);
+	color: #ff9000;
 }
 
 .bg-primary {
-	background-color: var(--primary);
+	background-color: #ff9000;
 }
 
 #cv_container {
@@ -57,7 +52,7 @@ table tr td {
 }
 
 #banner {
-	background-color: var(--primary);
+	background-color: #ff9000;
 }
 
 #contact, #about, #hobbies {
@@ -66,7 +61,7 @@ table tr td {
 
 .group_title {
 	padding: 5px;
-	color: var(--primary);
+	color: #ff9000;
 	background-color: #404040;
 }
 
@@ -92,7 +87,7 @@ table tr td {
 	content: "";
 	width: 3em;
 	height: 0.1em;
-	background-color: var(--primary);
+	background-color: #ff9000;
 }
 
 .formation_date, .experience_date {
