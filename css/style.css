@@ -7,10 +7,6 @@ header {
 	background-color: #ffffff;
 }
 
-section#body {
-	order: 3;
-}
-
 h1 {
 	font-size: 4em;
 	font-weight: 300;
