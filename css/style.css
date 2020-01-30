@@ -1,3 +1,7 @@
+* {
+	font-family: 'Roboto', Arial, sans-serif;
+}
+
 aside {
 	order: 1;
 }
@@ -8,12 +12,13 @@ header {
 }
 
 h1 {
-	font-size: 4em;
-	font-weight: 300;
+	font-size: 3.5em;
+	font-weight: 400;
 }
 
 h2 {
-	font-weight: 200;
+	font-size: 1.3em;
+	font-weight: 300;
 }
 
 h3 {
@@ -109,13 +114,17 @@ i.fa-circle {
 	color: #888888;
 }
 
+.recommendation_item h3 {
+	text-transform: uppercase;
+}
+
 /* ##### MEDIA QUERIES ##### */
 /* Tablets (sm) */
 @media screen and (min-width: 768px) {
-	#skills_container {
+	#recommendations_container {
 		justify-content: space-around;
 	}
-	.skill_item {
+	.recommendation_item {
 		padding: 1em;
 		width: 50%;
 	}
@@ -123,14 +132,14 @@ i.fa-circle {
 
 /* Laptops (md) */
 @media screen and (min-width: 992px) {
-	aside#banner {
-		width: 18em;
+	aside {
+		width: 30%;
 	}
 }
 
 /* Desktops (lg) */
 @media screen and (min-width: 1200px) {
-	.skill_item {
+	.recommendation_item {
 		width: 25%;
 	}
 }
